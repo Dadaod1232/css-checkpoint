@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "pages"
+		},
+		{
+			"path": "scripts"
+		},
+		{
+			"path": "style"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": ".vscode"
+	}
+}

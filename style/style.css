@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+head {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 3, 31);
+    padding:50px 780px;
+    position: fixed;
+    
+}
+
+.logo {
+    height: auto;
+    width: 100px;
+    /* position: relative; */
+    left: 140px;
+    position:fixed;
+}
+
+#nav-bar {
+    position: fixed;
+    left:700px;
+    display: flex;
+    list-style: none;
+    background-color: rgb(17, 3, 31);
+    width: 100%; 
+    
+} 
+
+.nav-header{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-header li a{
+color: white;
+text-decoration: none;
+font-weight: 50px;
+font-size: 24px;
+padding : 0 18px 0 18px;
+
+}
+.intro{
+    margin-top: 200px;
+    padding-top: 300px;
+    margin-right: 50px;
+}
+.man-image{
+    margin-left: 300px;
+    /* position: relative; */
+    margin-top:200px ;
+    /* margin-left: 40%; */
+}
+.social-icons{
+    display: flex;
+}
+.social-icons button{
+    margin-right: 50px;
+    border: 3px solid rgb(255, 74, 87);
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    font-size: 20px;
+}
+
+.social-icons button:hover{
+    background: rgb(255,74,87);
+    
+}
+
+#icon{
+    color: white;
+}
+
+.home{
+    display: flex;
+    background: rgb(23, 2, 44);
+}
+.name h1{
+    font-weight:bolder;
+    color: white;
+    font-size: 50px;
+    /* width: 700%; */
+    font-size: 80px;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+}
+.name p{
+    font-size: 30px;
+    color:white;
+    width: 430px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+}
+
+.social2 button{
+    position: relative;
+    left: 250px;
+    top: 50px;
+    margin-right: 50px;
+    border: 2px solid rgb(255, 74, 87);
+    padding: 14px 20px;
+    background-color: transparent;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: white;
+    font-size: 15px;
+    
+    }
+
+.social2{
+    display: flex;
+}  
+
+#od2:hover{
+    background: rgb(255,74,87);
+    
+}
+
+#od:hover{
+    background: rgb(255,74,87);
+    
+}
+
+#od{
+    background-color: red;
+}
+
